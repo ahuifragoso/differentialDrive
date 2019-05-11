@@ -1,30 +1,38 @@
+## Differential Drive Vehicle
+
+This repository is the development for a Differential Drive Vehicle, it will be developed using Arduino for the control of the prototype like DC motors and sensors, and Python to develop neural networks for different applications of the vehicle.
+
+### Arduino
+
+# Controls
+There are several controls related to the development of the vehicle so far only two controls are planned, if any other controls or systems are related to the development of the vehicle and requires Arduino will be added to this repository.
+
+## DC motor Speed Control
+Speed Control is developed using a tachometer and a L293 integrated as H Bridge
+- L293D
+Please review the diagram in the Control Section
+- Tachometer
+Please review the data sheet to understand the connections.
+- PID Calculations
+
+
+## DC motor position Control
+Speed Control is developed using a tachometer and a L293 integrated as H Bridge
+- L293D
+Please review the diagram in the Control Section
+- Tachometer
+Please review the data sheet to understand the connections.
+- PID Calculations
+
+### Python
+At the moment we are releasing this section we have no information so far
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ahuifragoso/differentialDrive/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
